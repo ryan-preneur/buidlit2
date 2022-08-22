@@ -12,7 +12,7 @@ const Profile = () => {
 
   return (
     <>
-    <img className="profileBanner" src={user.attributes.pfp ? user.attributes.pfp : defaultImgs[1]}></img>
+    <img className="profileBanner" src={user.attributes.pfp ? user.attributes.pfp : 'https://buidlit.s3.ap-south-1.amazonaws.com/banner.jpg'}></img>
     <div className="pfpContainer">
       <img className="profilePFP" src={user.attributes.banner ? user.attributes.banner : "https://buidlit.s3.ap-south-1.amazonaws.com/dp.jpg"}></img>
       <div className="profileName">{user.attributes.username.slice(0, 6)}</div>
