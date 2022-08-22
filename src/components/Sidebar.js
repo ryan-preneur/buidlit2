@@ -15,7 +15,7 @@ const Sidebar = () => {
       <div className="siderContent">
         <div className="menu">
           <div className="details">
-            <img src="/logo.png" width="150"/>
+            <img src= "https://buidlit.s3.ap-south-1.amazonaws.com/freelogo.png" width="150"/>
           </div>
 
           <Link to="/" className="link">

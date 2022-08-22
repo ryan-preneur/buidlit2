@@ -42,7 +42,7 @@ const App = () => {
       </div>
       ) : (
         <div className="loginPage">
-          <img src="/logo.png"/>
+          <img src="https://buidlit.s3.ap-south-1.amazonaws.com/freelogo.png"/>
           <ConnectButton />
         </div>
 

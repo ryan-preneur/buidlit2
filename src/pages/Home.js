@@ -119,6 +119,7 @@ const Home = () => {
               placeholder="Say Something!"
               value="Hello World!"
               type="text"
+              className='textarea'
               onChange={(e) => setTweet(e.target.value)}
               width="95%"
             ></TextArea>
