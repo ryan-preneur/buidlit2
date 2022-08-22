@@ -6,7 +6,7 @@ import academy from "../images/academy.png";
 import youtube from "../images/youtube.png";
 import js from "../images/js.png";
 import { Input } from "web3uikit";
-
+const data = [{name: 'Page A', uv: 400, pv: 2400, amt: 2400}];
 
 const Rightbar = () => {
   const trends = [
@@ -41,7 +41,7 @@ const Rightbar = () => {
     <>
     <div className="rightbarContent">
       <Input
-        label="Search Twitter"
+        label="Search Freeitter"
         name ="Search Twitter"
         prefixIcon="search"
         labelBgColor="#141d26" 
@@ -49,7 +49,7 @@ const Rightbar = () => {
       </Input>
 
     <div className="trends">
-      News For You
+      Your Trends
       {trends.map((e) => {
           return(
             <>
@@ -60,6 +60,7 @@ const Rightbar = () => {
             </>
           )
       })}
+
     </div>
 
     </div>

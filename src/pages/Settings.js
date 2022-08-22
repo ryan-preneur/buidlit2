@@ -89,7 +89,6 @@ const Settings = () => {
 
   return (
     <>
-      <div className="pageIdentify">Settings</div>
       <div className="settingsPage">
         <Input
           label="Name"

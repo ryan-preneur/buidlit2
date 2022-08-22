@@ -1,23 +1,21 @@
 .feedTweet {
-    max-width: 100%;
     border-bottom: 1px solid rgb(63, 63, 63);
     padding: 20px;
-    color: white;
     justify-content: space-between;
     display: flex;
 }
 
 .feedTweet:hover {
-    background-color: #1c2834;
+    background-color: #eeeeee;
 }
 
 .completeTweet {
     display: flex;
     justify-content: start;
     flex-direction: column;
-    gap:10px;
-    width:89%;
-    gap:10px;
+    gap: 10px;
+    width: 89%;
+    gap: 10px;
 }
 
 .interactions {
@@ -28,7 +26,7 @@
 }
 
 .interactionNums {
-    color:#3f3f3f;
+    color: #3f3f3f;
     display: flex;
     justify-content: start;
     gap: 10px;
@@ -37,8 +35,8 @@
 }
 
 .interactionNums:hover {
-    cursor:pointer;
-    background-color: #1da0f20b;
+    cursor: pointer;
+    background-color: #eeeeee;
 }
 
 .who {
@@ -54,11 +52,11 @@
     color: gray;
 }
 
-.tweetContent{
+.tweetContent {
     display: flex;
     justify-content: start;
     flex-direction: column;
-    gap:10px;
+    gap: 10px;
 }
 
 .tweetImg {

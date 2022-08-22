@@ -6,7 +6,7 @@
 }
 
 .pfp {
-    color:#68738D;
+    color: #68738D;
     padding-left: 10px;
 }
 
@@ -15,15 +15,15 @@
     justify-content: start;
     flex-wrap: wrap;
     margin-top: 10px;
-    gap:30px;
+    gap: 30px;
 }
 
 .pfpOption {
     border-radius: 50%;
-    margin-top:10px;
-    width:110px;
-    height:110px;
-    border:5px;
+    margin-top: 10px;
+    width: 110px;
+    height: 110px;
+    border: 5px;
 }
 
 .pfpOption {
@@ -32,24 +32,24 @@
 
 .pfpOptionSelected {
     border-radius: 50%;
-    margin-top:10px;
-    width:110px;
-    height:110px;
-    border:5px solid #1DA1F2;
+    margin-top: 10px;
+    width: 110px;
+    height: 110px;
+    border: 5px solid #4076CC;
 }
 
 .banner {
-    width:90%;
-    height:200px;
+    width: 90%;
+    height: 200px;
     object-fit: cover;
 }
 
 .banner:hover {
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .save {
-    background-color: #1DA1F2;
+    background-color: #4076CC;
     padding: 10px 20px;
     border-radius: 1000px;
     color: white;
@@ -60,6 +60,10 @@
     margin-left: 80%;
 }
 
-.save:hover{
-    cursor:pointer;
+.save:hover {
+    cursor: pointer;
+}
+
+.ihenkK {
+    background-color: #fafaff !important;
 }

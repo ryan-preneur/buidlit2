@@ -37,12 +37,12 @@ const App = () => {
           </Routes>
         </div>
         <div className="rightBar">
-          <Rightbar />
+              <Rightbar/>
         </div>
       </div>
       ) : (
         <div className="loginPage">
-          <Icon fill="#ffffff" size={40} svg="twitter" />
+          <img src="/logo.png"/>
           <ConnectButton />
         </div>
 

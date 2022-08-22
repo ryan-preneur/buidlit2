@@ -15,29 +15,37 @@ const Sidebar = () => {
       <div className="siderContent">
         <div className="menu">
           <div className="details">
-            <Icon fill="#ffffff" size={33} svg="twitter" />
+            <img src="/logo.png" width="150"/>
           </div>
 
           <Link to="/" className="link">
             <div className="menuItems">
-              <Icon fill="#ffffff" size={33} svg="list" />
+              <Icon fill="#000000" size={25} svg="list" />
               Home
             </div>
           </Link>
 
           <Link to="/profile" className="link">
             <div className="menuItems">
-              <Icon fill="#ffffff" size={33} svg="user" />
+              <Icon fill="#000000" size={25} svg="user" />
               Profile
             </div>
           </Link>
 
           <Link to="/settings" className="link">
             <div className="menuItems">
-              <Icon fill="#ffffff" size={33} svg="cog" />
+              <Icon fill="#000000" size={25} svg="cog" />
               Settings
             </div>
           </Link>
+            <div className="menuItems">
+              <Icon fill="#000000" size={25} svg="cog" />
+              Explore
+            </div>
+            <div className="menuItems">
+              <Icon fill="#000000" size={25} svg="cog" />
+              Lists
+            </div>
         </div>
 
         <div className="details">

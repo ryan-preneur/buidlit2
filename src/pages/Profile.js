@@ -12,7 +12,6 @@ const Profile = () => {
 
   return (
     <>
-    <div className="pageIdentify">Profile</div>
     <img className="profileBanner" src={user.attributes.banner ? user.attributes.banner : defaultImgs[1]}></img>
     <div className="pfpContainer">
       <img className="profilePFP" src={user.attributes.pfp ? user.attributes.pfp : defaultImgs[0]}></img>
@@ -24,11 +23,6 @@ const Profile = () => {
       </Link>
       <div className="profileBio">
       {user.attributes.bio}
-      </div>
-      <div className="profileTabs">
-          <div className="profileTab">
-          Your Tweets
-          </div>
       </div>
     </div>
     <TweetInFeed profile={true}></TweetInFeed>

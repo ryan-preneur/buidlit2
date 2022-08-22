@@ -1,12 +1,11 @@
 .profileBanner {
-    width: 100%;
     max-width: 100%;
     height: 220px;
     object-fit: cover;
 }
 
 .pfpContainer {
-    max-width:100%;
+    max-width: 400px;
     display: flex;
     justify-content: start;
     flex-direction: column;
@@ -14,19 +13,18 @@
 }
 
 .profilePFP {
-    widtH: 130px;
+    width: 130px;
     border-radius: 50%;
     border: 5px solid #141d26;
     position: relative;
-    top:-65px;
-    left:40px;
+    top: -65px;
+    left: 40px;
 }
 
 .profileName {
-    color: white;
     position: relative;
-    top:-55px;
-    left:40px;
+    top: -55px;
+    left: 40px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -34,33 +32,33 @@
 .profileWallet {
     color: rgb(114, 114, 114);
     position: relative;
-    top:-50px;
-    left:40px;
+    top: -50px;
+    left: 40px;
     font-size: 14px;
 }
 
 .profileBio {
-    color: white;
     position: relative;
-    top:-40px;
-    left:40px;
+    top: -40px;
+    left: 40px;
     font-size: 16px;
     font-weight: 500;
 }
 
 .profileEdit {
-    color: white;
+    color: rgb(0, 0, 0);
     position: relative;
-    top:-160px;
-    left:650px;
+    top: -160px;
+    left: 550px;
     font-size: 16px;
     font-weight: bold;
-    border: 0.5px solid white;
+    border: 0.5px solid #000;
     width: 100px;
     justify-content: center;
-    display:flex;
+    display: flex;
     padding: 10px 10px;
     border-radius: 1000px;
+    cursor: pointer;
 }
 
 .profileEdit:hover {
@@ -75,6 +73,7 @@
 }
 
 .profileTab {
-    padding-bottom: 10px;  
-    border-bottom: 2px solid #1DA1F2;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #4076CC;
+    ;
 }

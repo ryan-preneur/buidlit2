@@ -1,28 +1,25 @@
-.pageIdentify{
+.pageIdentify {
     max-width: 100%;
-    padding:20px;
-    background-color: #141d26ed;
+    padding: 10px 20px;
     position: sticky;
+    background-color: white;
+    border-radius: 5px;
     top: 0px;
-    color: white;
     font-weight: bold;
     font-size: 20px;
     z-index: 999;
 }
 
-.mainContent {
-    
-}
 
 .profileTweet {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid rgb(63, 63, 63) ;
+    border-bottom: 1px solid rgb(63, 63, 63);
     padding: 20px;
 }
 
 .tweetBox {
-    width:89%;
+    width: 89%;
 }
 
 .profilePic {
@@ -39,10 +36,10 @@
 }
 
 .tweet {
-    background-color: #1DA1F2;
+    background-color: #4076CC;
+    color: white;
     padding: 10px 20px;
     border-radius: 1000px;
-    color: white;
     font-weight: 600;
     display: flex;
     justify-content: center;
@@ -59,16 +56,21 @@
     gap: 10px;
 }
 
-.imgDiv{
+.imgDiv {
     border-radius: 50%;
     padding: 10px;
 }
 
-.imgDiv:hover{
-    cursor:pointer;
-    background-color: #282828;
+.imgDiv:hover {
+    cursor: pointer;
+    background-color: #eeeeee;
 }
+
 .tweetImg {
     width: 98%;
     border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
 }

@@ -109,7 +109,6 @@ const Home = () => {
 
   return (
     <>
-    <div className="pageIdentify">Home</div>
       <div className="mainContent">
         <div className="profileTweet">
           <img src={user.attributes.pfp ? user.attributes.pfp : defaultImgs[0]} className="profilePic"></img>
@@ -117,7 +116,8 @@ const Home = () => {
             <TextArea
               label=""
               name="tweetTxtArea"
-              value="GM World"
+              placeholder="Say Something!"
+              value="Hello World!"
               type="text"
               onChange={(e) => setTweet(e.target.value)}
               width="95%"
