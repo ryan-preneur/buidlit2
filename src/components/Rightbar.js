@@ -20,21 +20,16 @@ const Rightbar = () => {
       text: "Let's Netflix and chill...",
       link: "",
     },
-    {
-      img: academy,
-      text: "Master DeFi in 2022. Start  at the Moralis Academy...",
-      link: "",
-    },
-    {
-      img: js,
-      text: "Become a Web3 Developer with just simple JS...",
-      link: "",
-    },
-    {
-      img: youtube,
-      text: "Best Web3 Option",
-      link: "",
-    },
+    // {
+    //   img: academy,
+    //   text: "Master DeFi in 2022. Start  at the Moralis Academy...",
+    //   link: "",
+    // },
+    // {
+    //   img: js,
+    //   text: "Become a Web3 Developer with just simple JS...",
+    //   link: "",
+    // }
   ];
 
   return (
@@ -49,13 +44,12 @@ const Rightbar = () => {
       </Input>
 
     <div className="trends">
-      Your Trends
+      Explore Now
       {trends.map((e) => {
           return(
             <>
             <div className="trend" onClick={() => window.open(e.link)}>
               <img src={e.img} className="trendImg"></img>
-              <div className="trendText">{e.text}</div>
             </div>
             </>
           )

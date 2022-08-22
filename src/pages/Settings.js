@@ -106,7 +106,7 @@ const Settings = () => {
           onChange={(e)=> setBio(e.target.value)}
         />
 
-        <div className="pfp">
+        {/* <div className="pfp">
           Profile Image (Your NFTs)
 
           <div className="pfpOptions">
@@ -125,10 +125,10 @@ const Settings = () => {
               )
             })}
           </div>
-        </div>
+        </div> */}
 
         <div className="pfp">
-          Profile Banner
+          Profile Image Upload
           <div className="pfpOptions">
             <img
               src={selectedFile}

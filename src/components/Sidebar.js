@@ -39,17 +39,17 @@ const Sidebar = () => {
             </div>
           </Link>
             <div className="menuItems">
-              <Icon fill="#000000" size={25} svg="cog" />
+            <i class="fa-solid fa-hashtag"></i>
               Explore
             </div>
             <div className="menuItems">
-              <Icon fill="#000000" size={25} svg="cog" />
+            <i class="fa-solid fa-list"></i>
               Lists
             </div>
         </div>
 
         <div className="details">
-          <img src={user.attributes.pfp ? user.attributes.pfp : defaultImgs[0]} className="profilePic"></img>
+          <img src={user.attributes.banner ? user.attributes.banner : '/300.jpg'} className="profilePic"></img>
           <div className="profile">
             <div className="who">
               {user.attributes.username.slice(0, 6)}
