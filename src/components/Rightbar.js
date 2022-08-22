@@ -11,12 +11,12 @@ const data = [{name: 'Page A', uv: 400, pv: 2400, amt: 2400}];
 const Rightbar = () => {
   const trends = [
     {
-      img: spaceshooter,
+      img: "https://buidlit.s3.ap-south-1.amazonaws.com/games.webp",
       text: "Lets Learn About Hack2skill",
       link: "",
     },
     {
-      img: netflix,
+      img: "https://buidlit.s3.ap-south-1.amazonaws.com/movies.jpg",
       text: "Let's Netflix and chill...",
       link: "",
     },

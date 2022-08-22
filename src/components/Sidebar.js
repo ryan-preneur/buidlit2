@@ -49,7 +49,7 @@ const Sidebar = () => {
         </div>
 
         <div className="details">
-          <img src={user.attributes.banner ? user.attributes.banner : '/300.jpg'} className="profilePic"></img>
+          <img src={user.attributes.banner ? user.attributes.banner : "https://buidlit.s3.ap-south-1.amazonaws.com/dp.jpg"} className="profilePic"></img>
           <div className="profile">
             <div className="who">
               {user.attributes.username.slice(0, 6)}

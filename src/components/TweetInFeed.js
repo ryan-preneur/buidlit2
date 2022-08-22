@@ -36,7 +36,7 @@ const TweetInFeed = ({ profile }) => {
         return (
           <>
             <div className="feedTweet">
-              <img src={e.attributes.tweeterPfp ? e.attributes.tweeterPfp : '/300.jpg'} className="profilePic"></img>
+              <img src={e.attributes.tweeterPfp ? e.attributes.tweeterPfp : "https://buidlit.s3.ap-south-1.amazonaws.com/dp.jpg"} className="profilePic"></img>
               <div className="completeTweet">
                 <div className="who">
                 {e.attributes.tweeterUserName.slice(0, 6)}

@@ -111,7 +111,7 @@ const Home = () => {
     <>
       <div className="mainContent">
         <div className="profileTweet">
-          <img src={user.attributes.banner ? user.attributes.banner : '/300.jpg'} className="profilePic"></img>
+          <img src={user.attributes.banner ? user.attributes.banner : "https://buidlit.s3.ap-south-1.amazonaws.com/dp.jpg"} className="profilePic"></img>
           <div className="tweetBox">
             <TextArea
               label=""
